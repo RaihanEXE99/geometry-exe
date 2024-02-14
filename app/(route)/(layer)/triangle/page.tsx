@@ -146,7 +146,7 @@ export default function Home() {
             />
             <div className="text-sm">
               Base(b): The base of a triangle is typically the side on which the
-              triangle "sits" or rests. It is usually the lower side, and its
+              triangle sits or rests. It is usually the lower side, and its
               length is often used as a reference when calculating the area of
               the triangle.
             </div>
