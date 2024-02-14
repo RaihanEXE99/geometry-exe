@@ -32,7 +32,7 @@ export default function Home() {
   const [area, setArea] = useState(0);
 
   const calculate = () => {
-    setArea((diagonal1 * diagonal2) / 2);
+    setArea(parseFloat(((diagonal1 * diagonal2) / 2).toFixed(4)));
   };
 
   return (

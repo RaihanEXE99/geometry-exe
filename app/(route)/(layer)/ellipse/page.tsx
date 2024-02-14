@@ -32,7 +32,7 @@ export default function Home() {
   const [area, setArea] = useState(0);
 
   const calculate = () => {
-    setArea(Math.PI * majorAxis * minorAxis);
+    setArea(parseFloat((Math.PI * majorAxis * minorAxis).toFixed(4)));
   };
 
   return (

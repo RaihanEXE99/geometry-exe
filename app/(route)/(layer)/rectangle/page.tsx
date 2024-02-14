@@ -31,7 +31,7 @@ export default function Home() {
   const [length,setLength] = useState(0);
   const [area,setArea] = useState(0);
   const calculate = () =>{
-    setArea(width*length);
+    setArea(parseFloat((width*length).toFixed(4)));
   }
   return (
     <Tabs defaultValue="calculate">
